@@ -7,9 +7,9 @@ function DirectorCard ({ director }) {
     <>
     <article>
         <h2>{name}</h2>
-        <ul>
+        <li>
             {movies}
-        </ul>
+        </li>
     </article>
     </>
   );
